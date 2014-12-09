@@ -26,11 +26,11 @@ p  { margin-bottom: 1em;}
 
 hr{
     height: 3px;
-    color: #000000;
-    background-color: #000000;
+    color: #ffffff;
+    background-color: #ffffff;
     border-width: 0;
 }
 
 .selection {
-    color: #000000;
+    color: #ffffff;
 }
