@@ -1,5 +1,5 @@
 <?php
-    $dbname = "APP-MVC";
+    $dbname = "HouseSharing";
     $host='localhost';
     $user='root';
     $pass='root';

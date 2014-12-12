@@ -3,7 +3,7 @@ body {
 }
 
 * {  
-    font-family: Tahoma, Helvetica, sans-serif; 
+    //font-family: Tahoma, Helvetica, sans-serif; 
     margin: 0; 
 
 }
@@ -26,11 +26,20 @@ p  { margin-bottom: 1em;}
 
 hr{
     height: 3px;
-    color: #000000;
-    background-color: #000000;
+    color: #dbdbdb;
+    background-color: #dbdbdb;
     border-width: 0;
 }
 
+li{
+    display: inline;
+}
+
 .selection {
-    color: #000000;
+    color: #dbdbdb;
+}
+
+ban {
+    height: 140px;
+    background-color: #ae0000;
 }

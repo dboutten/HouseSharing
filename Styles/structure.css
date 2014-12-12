@@ -1,36 +1,57 @@
 #global{
-    width: 800px;
-    margin: 0 auto;
+    //width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #tete{
-    background:#bbbbbb;
+    //background:#ae0000;
+    
+    height:140px;
+}
+
+#logo{
+    background: url(../images/banniere_haut.png) no-repeat;
+    text-align: left;
+}
+
+#banniere{
+    //background:#ae0000;
+    background: url(../images/banniere_haut.png) no-repeat;
+    width:100%;
+    height:140px;
 }
 
 #corps{
-    background:#dddddd;
+    //background:#ffffff;
 }
 
 
 #menu{
-    float:left;
-    width:180px;
-    background:#bbbbbb;
+    //float:left;
+    width:100%;
+    //background:#dbdbdb;
 }
 
 #contenu{
-    width:600px;
+    width:100%;
     min-height:400px;
-    margin-left:200px;
-    background-color: #cccccc;
+    //margin-left:200px;
+    //background-color: #ffffff;
 }
 
 #menu ul {
     list-style: none;
+    text-align: right;
+}
+
+#menu li {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
 #pied {
-    background:#bbbbbb;
-
+    background:#dbdbdb;
+    
 }

@@ -4,27 +4,35 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link rel="stylesheet" type="text/css" href="styles/base.css" />
 	<link rel="stylesheet" type="text/css" href="styles/structure.css" />
+        <link rel="stylesheet" type="text/css" href="styles/demo.css" />
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <link rel="stylesheet" type="text/css" href="styles/jquery.jscrollpane.css" media="all" />
         <title>
             <?php echo($titre); ?>
         </title>
     </head>
         <div id="global">
             <div id="tete">
-                <?php echo($entete); ?>
-            </div>
-            
-            <hr/>    
+                <div id="banniere">
+                    <div id="logo">
+                        <?php echo($logo); ?>
+                    </div>
+                    <div id="menu">
+                        <?php echo($menu);
+                        echo ($sousmenu); ?>
+                    </div> 
+                </div>
+                <div id="logo">
+                    <?php echo($logo); ?>
+                </div>
+                 
+            </div> 
             
             <div id="corps">
-                <div id="menu">
-                    <?php echo($menu); ?>
-                </div>
                 <div id="contenu">
                     <?php echo($contenu); ?>
                 </div>
             </div>
-            
-            <hr />    
 
             <div id="pied">
                 <?php echo($pied); ?>
