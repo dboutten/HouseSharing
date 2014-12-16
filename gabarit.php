@@ -18,7 +18,22 @@
                         <?php echo($logo); ?>
                     </div>
                     <div id="menu">
-                        <?php echo($menu);
+                        <?php
+                        if(!isset($_SESSION["iduser"])){?>
+                            <a href="index.php?cible=inscruser">S'insrire</a>
+                            <?php
+                            echo formulaire();
+                            global $erreur;
+                            if(isset($erreur)){
+                                echo $erreur;
+                            }
+                        }
+                        else {
+                            echo($_SESSION['nom']." ".$_SESSION['prenom']);?>
+                            <a href="index.php?cible=deco">Se déconnecter</a>
+                        <?php
+                        }
+                        echo($menu);
                         echo ($sousmenu); ?>
                     </div> 
                 </div>

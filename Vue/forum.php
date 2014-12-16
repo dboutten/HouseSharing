@@ -1,7 +1,7 @@
 <?php
     $entete = entete("Mon site / Forum");
     $menu = menu("forum");
-    $contenu = "<h2>Contenu du forum</h2>";
+    $contenu = "<h1>Contenu du forum</h1>";
     $pied = pied();
 
     include 'gabarit.php';
