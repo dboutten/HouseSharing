@@ -4,14 +4,14 @@
     $entete = entete("Le logement ...");
     $menu = menu("");
     //$contenu = "<h1>Logement :</h1><br/>";
-    $contenu = fichelog2($idlog);
+    $contenu = fichelog($idlog);
     //$contenu = "coucou".formulaire()."au revoir";
     //$contenu .= fichelog($idlog);
     $pied = pied();
 
     include 'gabarit.php';
     
-    function fichelog2($idlog){
+    function fichelog($idlog){
         ob_start();
         try
         {
@@ -35,7 +35,7 @@
         Description :<br/><?php echo($ligne['description']); ?> <br/>
         Demandes et contraintes :<br/><?php echo($ligne['demande']); ?> <br/>
         <?php
-        $fichelog2=ob_get_clean();
-        return $fichelog2;
+        $fichelog=ob_get_clean();
+        return $fichelog;
     }
 ?>
